@@ -15,6 +15,7 @@ dist/
 downloads/
 eggs/
 .eggs/
+.idea/
 lib/
 lib64/
 parts/
@@ -60,3 +61,11 @@ target/
 
 #Ipython Notebook
 .ipynb_checkpoints
+
+#Shelve saved files
+*.bak
+*.dat
+*.dir
+
+#Generated Db for rooms
+rooms.db

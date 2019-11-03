@@ -11,7 +11,7 @@ def main(dbname):
                 " description TEXT NOT NULL)")
     con.commit()
 
-    path = "/home/matthew/PycharmProjects/text_adventure/rooms"
+    path = "./rooms"
 
     for f in os.listdir(path):
         f_n = os.path.join(path, f)
@@ -31,6 +31,7 @@ def main(dbname):
                 con.commit()
 
     con.close()
+
 
 if __name__ == "__main__":
     if len(sys.argv) != 2:

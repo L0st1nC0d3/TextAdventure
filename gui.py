@@ -335,5 +335,6 @@ class Gui:
         self.map.mylocation(self.can1, self.map.getroomid(self.ga.newchar.position.id))
         self.ga.look(self.tx1)
 
+
 if __name__ == "__main__":
     g = Gui()

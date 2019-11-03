@@ -52,12 +52,12 @@ class Map:
         self.mylocation(self.c, self.getroomid(self.charpos))
 
     def create_plane(self, cv, val):
-            for i in range(len(val)):
-                if val[i] not in self.visited:
-		    pass
-                    # cv.create_polygon(val[i], outline="green", fill="red")
-                else:
-                    cv.create_polygon(val[i], outline="green", fill="black")
+        for i in range(len(val)):
+            if val[i] not in self.visited:
+                pass
+            # cv.create_polygon(val[i], outline="green", fill="red")
+            else:
+                cv.create_polygon(val[i], outline="green", fill="black")
 
     def getroomid(self, pos):
         if pos <= 12:

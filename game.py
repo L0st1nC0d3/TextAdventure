@@ -228,6 +228,7 @@ class Game(cmd.Cmd):
                     f.write('Hai completato il gioco in %s ore, %s minuti e %s secondi!\n' % (timeh, timemin, timesec))
             f.close()
 
+
 if __name__ == "__main__":
     g = Game(None, None)
     g.cmdloop()

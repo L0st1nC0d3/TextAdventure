@@ -1,5 +1,5 @@
 import json
-from Tkinter import *
+from tkinter import *
 
 
 def get_chara(namec):

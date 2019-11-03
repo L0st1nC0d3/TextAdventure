@@ -1,6 +1,6 @@
 import json
 import sqlite3
-from Tkinter import *
+from tkinter import *
 
 
 def get_room(i2d, dbname):
